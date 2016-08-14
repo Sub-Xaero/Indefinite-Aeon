@@ -1,0 +1,642 @@
+# depslib dependency file v1.0
+1451768529 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\audio.cpp
+	"audio.hpp"
+	"settings.hpp"
+
+1451768438 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\audio.hpp
+	"includes.hpp"
+
+1440583895 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\includes.hpp
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<sstream>
+	<vector>
+	<iostream>
+	<fstream>
+
+1451251832 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\settings.hpp
+	"includes.hpp"
+
+1450874698 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\button.cpp
+	"Button.hpp"
+	"defines.hpp"
+
+1451252654 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\button.hpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	<functional>
+	"includes.hpp"
+
+1452686662 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\defines.hpp
+	"settings.hpp"
+	<mutex>
+
+1451252396 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\company.cpp
+	"company.hpp"
+
+1450385192 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\company.hpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<map>
+	<algorithm>
+	"computerSystem.hpp"
+
+1450385268 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\computersystem.hpp
+	"includes.hpp"
+
+1450385380 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\computersystem.cpp
+	"computerSystem.hpp"
+
+1451320630 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\console.cpp
+	"includes.hpp"
+	"defines.hpp"
+	"utilFunctions.hpp"
+	"dynamicMenu.hpp"
+
+1452684656 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\utilfunctions.hpp
+	"includes.hpp"
+	"defines.hpp"
+
+1452596709 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\dynamicmenu.hpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<map>
+	"Button.hpp"
+
+1453497363 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\creditsmenu.cpp
+	"includes.hpp"
+	"defines.hpp"
+	"dynamicMenu.hpp"
+	"menus.hpp"
+
+1452694482 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\menus.hpp
+
+1452686653 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\defines.cpp
+	"includes.hpp"
+	"defines.hpp"
+	"settings.hpp"
+	"game.hpp"
+
+1453651421 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\game.hpp
+	<iterator>
+	<algorithm>
+	<functional>
+	<thread>
+	<string>
+	<vector>
+	<cereal/archives/binary.hpp>
+	<cereal/types/vector.hpp>
+	<cereal/types/string.hpp>
+	"progressModule.hpp"
+	"resources.hpp"
+	"utilFunctions.hpp"
+	"includes.hpp"
+	"defines.hpp"
+	"save.hpp"
+	"planets.hpp"
+	"alien.hpp"
+	"ship.hpp"
+	"explosion.hpp"
+
+1450385333 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\person.hpp
+	<vector>
+	<string>
+	<fstream>
+	<sstream>
+	<random>
+	<algorithm>
+	<time.h>
+	<cereal/types/string.hpp>
+
+1450822464 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\progressmodule.hpp
+	<functional>
+	<thread>
+	"defines.hpp"
+
+1451166632 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\gameui.hpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<functional>
+
+1452616910 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\resources.hpp
+	"defines.hpp"
+
+1439760905 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\save.hpp
+
+1452687341 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\dynamicmenu.cpp
+	"dynamicMenu.hpp"
+	"defines.hpp"
+	"resources.hpp"
+	"audio.hpp"
+	"save.hpp"
+	"utilFunctions.hpp"
+
+1452521458 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\errorscreen.cpp
+	"defines.hpp"
+	"dynamicMenu.hpp"
+	"menus.hpp"
+	"resources.hpp"
+
+1453651527 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\game.cpp
+	"game.hpp"
+	"menus.hpp"
+	"audio.hpp"
+
+1451256678 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\gameui.cpp
+	"gameUI.hpp"
+	"defines.hpp"
+	"textureManager.hpp"
+	"resources.hpp"
+	"audio.hpp"
+
+1450383299 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\texturemanager.hpp
+	"includes.hpp"
+
+1451256046 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\graphicsoptionsmenu.cpp
+	"includes.hpp"
+	"dynamicMenu.hpp"
+	"resources.hpp"
+	"utilFunctions.hpp"
+	"settings.hpp"
+	<math.h>
+
+1451320630 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\interactable.cpp
+	"includes.hpp"
+	"Interactable.hpp"
+	"utilFunctions.hpp"
+	"resources.hpp"
+	<iterator>
+
+1450822804 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\interactable.hpp
+	<functional>
+
+1453497557 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\main.cpp
+	"includes.hpp"
+	"utilFunctions.hpp"
+	"Interactable.hpp"
+	"resources.hpp"
+	"save.hpp"
+	"settings.hpp"
+	"defines.hpp"
+	"menus.hpp"
+	"audio.hpp"
+
+1453497351 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\mainmenu.cpp
+	"defines.hpp"
+	"dynamicMenu.hpp"
+	"utilFunctions.hpp"
+	"menus.hpp"
+	"save.hpp"
+	"game.hpp"
+	"version.hpp"
+
+1453651527 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\version.hpp
+
+1453497347 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\optionsmenu.cpp
+	"includes.hpp"
+	"defines.hpp"
+	"dynamicMenu.hpp"
+	"menus.hpp"
+	"utilFunctions.hpp"
+	"settings.hpp"
+	"audio.hpp"
+	"resources.hpp"
+
+1453497343 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\pausemenu.cpp
+	"includes.hpp"
+	"dynamicMenu.hpp"
+	"resources.hpp"
+	"menus.hpp"
+	"game.hpp"
+	"utilFunctions.hpp"
+	"textureManager.hpp"
+	"settings.hpp"
+
+1451252938 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\person.cpp
+	"person.hpp"
+
+1451255342 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\progressmodule.cpp
+	"progressModule.hpp"
+
+1452687305 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\save.cpp
+	"save.hpp"
+	"settings.hpp"
+	"defines.hpp"
+	<cereal/archives/binary.hpp>
+	<cereal/types/string.hpp>
+	<cereal/types/vector.hpp>
+	<cereal/types/utility.hpp>
+
+1451255342 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\settings.cpp
+	"settings.hpp"
+
+1452597116 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\splashscreen.cpp
+	"defines.hpp"
+	"dynamicMenu.hpp"
+	"menus.hpp"
+	"save.hpp"
+
+1451255315 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\texturemanager.cpp
+	"textureManager.hpp"
+
+1452684640 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\utilfunctions.cpp
+	"utilFunctions.hpp"
+
+1453498342 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\resources.cpp
+	"includes.hpp"
+	"defines.hpp"
+	"resources.hpp"
+	"textureManager.hpp"
+	"progressModule.hpp"
+	"settings.hpp"
+	"audio.hpp"
+	"unispaceFont.hpp"
+	<thread>
+	<chrono>
+	<dirent.h>
+	<map>
+	<cereal/archives/binary.hpp>
+	<cereal/types/string.hpp>
+	<cereal/types/vector.hpp>
+	<cereal/types/utility.hpp>
+
+1452518723 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\unispacefont.hpp
+
+1452518728 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\icon.hpp
+
+1453497353 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\devmenu.cpp
+	"defines.hpp"
+	"utilFunctions.hpp"
+	"dynamicMenu.hpp"
+	"menus.hpp"
+	"person.hpp"
+	"company.hpp"
+	"console.hpp"
+	"interactable.hpp"
+
+1440584880 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\console.hpp
+
+1452519111 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\icon.rc
+	"Windows.h"
+
+1452607239 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\waitscreen.cpp
+	"defines.hpp"
+	"dynamicMenu.hpp"
+	"menus.hpp"
+	"save.hpp"
+
+1452610268 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\planets.cpp
+	"planets.hpp"
+	"textureManager.hpp"
+	"defines.hpp"
+	"game.hpp"
+
+1452610236 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\planets.hpp
+	"includes.hpp"
+
+1453651354 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\alien.cpp
+	"alien.hpp"
+
+1453651307 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\alien.hpp
+	"includes.hpp"
+	"textureManager.hpp"
+	"defines.hpp"
+
+1452616623 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\ship.cpp
+	"ship.hpp"
+
+1453497635 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\ship.hpp
+	"includes.hpp"
+	"textureManager.hpp"
+	"defines.hpp"
+
+1452620592 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\explosion.cpp
+	"explosion.hpp"
+
+1452620657 e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\explosion.hpp
+	"includes.hpp"
+	"textureManager.hpp"
+	"defines.hpp"
+
+1452694495 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\gameoverscreen.cpp
+	"includes.hpp"
+	"dynamicMenu.hpp"
+	"resources.hpp"
+	"menus.hpp"
+	"game.hpp"
+	"utilFunctions.hpp"
+	"textureManager.hpp"
+	"settings.hpp"
+
+1452716165 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\highscoresmenu.cpp
+	"includes.hpp"
+	"defines.hpp"
+	"dynamicMenu.hpp"
+	"menus.hpp"
+	"utilFunctions.hpp"
+
+1452715939 source:e:\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\newhighscorescreen.cpp
+	"includes.hpp"
+	"dynamicMenu.hpp"
+	"resources.hpp"
+	"menus.hpp"
+	"game.hpp"
+	"utilFunctions.hpp"
+	"textureManager.hpp"
+	"settings.hpp"
+
+1453651354 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\alien.cpp
+	"alien.hpp"
+
+1453651307 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\alien.hpp
+	"includes.hpp"
+	"textureManager.hpp"
+	"defines.hpp"
+
+1440583895 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\includes.hpp
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<sstream>
+	<vector>
+	<iostream>
+	<fstream>
+
+1450383299 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\texturemanager.hpp
+	"includes.hpp"
+
+1452686662 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\defines.hpp
+	"settings.hpp"
+	<mutex>
+
+1451251832 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\settings.hpp
+	"includes.hpp"
+
+1451768529 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\audio.cpp
+	"audio.hpp"
+	"settings.hpp"
+
+1451768438 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\audio.hpp
+	"includes.hpp"
+
+1450874698 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\button.cpp
+	"Button.hpp"
+	"defines.hpp"
+
+1451252654 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\button.hpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	<functional>
+	"includes.hpp"
+
+1451320630 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\console.cpp
+	"includes.hpp"
+	"defines.hpp"
+	"utilFunctions.hpp"
+	"dynamicMenu.hpp"
+
+1452684656 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\utilfunctions.hpp
+	"includes.hpp"
+	"defines.hpp"
+
+1452596709 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\dynamicmenu.hpp
+	<SFML/Graphics.hpp>
+	<vector>
+	<map>
+	"Button.hpp"
+
+1453497363 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\creditsmenu.cpp
+	"includes.hpp"
+	"defines.hpp"
+	"dynamicMenu.hpp"
+	"menus.hpp"
+
+1452694482 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\menus.hpp
+
+1452686653 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\defines.cpp
+	"includes.hpp"
+	"defines.hpp"
+	"settings.hpp"
+	"game.hpp"
+
+1453651421 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\game.hpp
+	<iterator>
+	<algorithm>
+	<functional>
+	<thread>
+	<string>
+	<vector>
+	<cereal/archives/binary.hpp>
+	<cereal/types/vector.hpp>
+	<cereal/types/string.hpp>
+	"progressModule.hpp"
+	"resources.hpp"
+	"utilFunctions.hpp"
+	"includes.hpp"
+	"defines.hpp"
+	"save.hpp"
+	"planets.hpp"
+	"alien.hpp"
+	"ship.hpp"
+	"explosion.hpp"
+
+1450822464 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\progressmodule.hpp
+	<functional>
+	<thread>
+	"defines.hpp"
+
+1452616910 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\resources.hpp
+	"defines.hpp"
+
+1439760905 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\save.hpp
+
+1452610236 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\planets.hpp
+	"includes.hpp"
+
+1453497635 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\ship.hpp
+	"includes.hpp"
+	"textureManager.hpp"
+	"defines.hpp"
+
+1452620588 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\explosion.hpp
+	"includes.hpp"
+	"textureManager.hpp"
+	"defines.hpp"
+
+1452687341 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\dynamicmenu.cpp
+	"dynamicMenu.hpp"
+	"defines.hpp"
+	"resources.hpp"
+	"audio.hpp"
+	"save.hpp"
+	"utilFunctions.hpp"
+
+1452521458 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\errorscreen.cpp
+	"defines.hpp"
+	"dynamicMenu.hpp"
+	"menus.hpp"
+	"resources.hpp"
+
+1452620592 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\explosion.cpp
+	"explosion.hpp"
+
+1453651527 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\game.cpp
+	"game.hpp"
+	"menus.hpp"
+	"audio.hpp"
+
+1452694495 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\gameoverscreen.cpp
+	"includes.hpp"
+	"dynamicMenu.hpp"
+	"resources.hpp"
+	"menus.hpp"
+	"game.hpp"
+	"utilFunctions.hpp"
+	"textureManager.hpp"
+	"settings.hpp"
+
+1451256046 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\graphicsoptionsmenu.cpp
+	"includes.hpp"
+	"dynamicMenu.hpp"
+	"resources.hpp"
+	"utilFunctions.hpp"
+	"settings.hpp"
+	<math.h>
+
+1452716165 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\highscoresmenu.cpp
+	"includes.hpp"
+	"defines.hpp"
+	"dynamicMenu.hpp"
+	"menus.hpp"
+	"utilFunctions.hpp"
+
+1452519111 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\icon.rc
+	"Windows.h"
+
+1451320630 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\interactable.cpp
+	"includes.hpp"
+	"Interactable.hpp"
+	"utilFunctions.hpp"
+	"resources.hpp"
+	<iterator>
+
+1450822804 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\interactable.hpp
+	<functional>
+
+1453497557 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\main.cpp
+	"includes.hpp"
+	"utilFunctions.hpp"
+	"Interactable.hpp"
+	"resources.hpp"
+	"save.hpp"
+	"settings.hpp"
+	"defines.hpp"
+	"menus.hpp"
+	"audio.hpp"
+
+1453497351 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\mainmenu.cpp
+	"defines.hpp"
+	"dynamicMenu.hpp"
+	"utilFunctions.hpp"
+	"menus.hpp"
+	"save.hpp"
+	"game.hpp"
+	"version.hpp"
+
+1453651527 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\version.hpp
+
+1452715939 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\newhighscorescreen.cpp
+	"includes.hpp"
+	"dynamicMenu.hpp"
+	"resources.hpp"
+	"menus.hpp"
+	"game.hpp"
+	"utilFunctions.hpp"
+	"textureManager.hpp"
+	"settings.hpp"
+
+1453497347 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\optionsmenu.cpp
+	"includes.hpp"
+	"defines.hpp"
+	"dynamicMenu.hpp"
+	"menus.hpp"
+	"utilFunctions.hpp"
+	"settings.hpp"
+	"audio.hpp"
+	"resources.hpp"
+
+1453497343 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\pausemenu.cpp
+	"includes.hpp"
+	"dynamicMenu.hpp"
+	"resources.hpp"
+	"menus.hpp"
+	"game.hpp"
+	"utilFunctions.hpp"
+	"textureManager.hpp"
+	"settings.hpp"
+
+1452610268 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\planets.cpp
+	"planets.hpp"
+	"textureManager.hpp"
+	"defines.hpp"
+	"game.hpp"
+
+1451255342 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\progressmodule.cpp
+	"progressModule.hpp"
+
+1453498342 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\resources.cpp
+	"includes.hpp"
+	"defines.hpp"
+	"resources.hpp"
+	"textureManager.hpp"
+	"progressModule.hpp"
+	"settings.hpp"
+	"audio.hpp"
+	"unispaceFont.hpp"
+	<thread>
+	<chrono>
+	<dirent.h>
+	<map>
+	<cereal/archives/binary.hpp>
+	<cereal/types/string.hpp>
+	<cereal/types/vector.hpp>
+	<cereal/types/utility.hpp>
+
+1452518723 c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\unispacefont.hpp
+
+1452687305 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\save.cpp
+	"save.hpp"
+	"settings.hpp"
+	"defines.hpp"
+	<cereal/archives/binary.hpp>
+	<cereal/types/string.hpp>
+	<cereal/types/vector.hpp>
+	<cereal/types/utility.hpp>
+
+1451255342 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\settings.cpp
+	"settings.hpp"
+
+1452616595 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\ship.cpp
+	"ship.hpp"
+
+1452597116 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\splashscreen.cpp
+	"defines.hpp"
+	"dynamicMenu.hpp"
+	"menus.hpp"
+	"save.hpp"
+
+1451255315 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\texturemanager.cpp
+	"textureManager.hpp"
+
+1452684640 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\utilfunctions.cpp
+	"utilFunctions.hpp"
+
+1452607239 source:c:\users\dylcl_000\dropbox\programming\projects\dylan\c++\graphics\indefinite aeon v2.0\sources\waitscreen.cpp
+	"defines.hpp"
+	"dynamicMenu.hpp"
+	"menus.hpp"
+	"save.hpp"
+

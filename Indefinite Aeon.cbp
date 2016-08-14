@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Indefinite Aeon" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Game\;Modules\;Utilities\;Main\;Settings, Data and Resources\;Menus\;Overlays\;Game\Entities\;" />
+		<Build>
+			<Target title="Console - NoSave">
+				<Option output="Indefinite Aeon" prefix_auto="1" extension_auto="1" />
+				<Option object_output="bin/Console" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-nosettings -nosplash" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="GUI - NoSave">
+				<Option output="Indefinite Aeon" prefix_auto="1" extension_auto="1" />
+				<Option object_output="bin/GUI" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters="-nosettings -nosplash" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Console">
+				<Option output="Indefinite Aeon" prefix_auto="1" extension_auto="1" />
+				<Option object_output="bin/Console" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-nosplash" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="GUI">
+				<Option output="Indefinite Aeon" prefix_auto="1" extension_auto="1" />
+				<Option object_output="bin/GUI" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters="-nosplash" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="DevMode - Console">
+				<Option output="Indefinite Aeon - Dev" prefix_auto="1" extension_auto="1" />
+				<Option object_output="bin/Dev" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-nosplash" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DDEVMODE" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="Indefinite Aeon" prefix_auto="1" extension_auto="1" />
+				<Option object_output="bin/GUI" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Sources/Button.cpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/Button.hpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/Interactable.cpp">
+			<Option virtualFolder="Modules/" />
+		</Unit>
+		<Unit filename="Sources/Interactable.hpp">
+			<Option virtualFolder="Modules/" />
+		</Unit>
+		<Unit filename="Sources/alien.cpp">
+			<Option virtualFolder="Game/Entities/" />
+		</Unit>
+		<Unit filename="Sources/alien.hpp">
+			<Option virtualFolder="Game/Entities/" />
+		</Unit>
+		<Unit filename="Sources/audio.cpp">
+			<Option virtualFolder="Settings, Data and Resources/" />
+		</Unit>
+		<Unit filename="Sources/audio.hpp">
+			<Option virtualFolder="Settings, Data and Resources/" />
+		</Unit>
+		<Unit filename="Sources/console.cpp">
+			<Option virtualFolder="Overlays/" />
+		</Unit>
+		<Unit filename="Sources/console.hpp">
+			<Option virtualFolder="Overlays/" />
+		</Unit>
+		<Unit filename="Sources/creditsMenu.cpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/defines.cpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="Sources/defines.hpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="Sources/devMenu.cpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/dynamicMenu.cpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/dynamicMenu.hpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/errorScreen.cpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/explosion.cpp">
+			<Option virtualFolder="Game/Entities/" />
+		</Unit>
+		<Unit filename="Sources/explosion.hpp">
+			<Option virtualFolder="Game/Entities/" />
+		</Unit>
+		<Unit filename="Sources/game.cpp">
+			<Option virtualFolder="Game/" />
+		</Unit>
+		<Unit filename="Sources/game.hpp">
+			<Option virtualFolder="Game/" />
+		</Unit>
+		<Unit filename="Sources/gameOverScreen.cpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/graphicsOptionsMenu.cpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/highscoresMenu.cpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/icon.rc">
+			<Option compilerVar="WINDRES" />
+			<Option virtualFolder="Settings, Data and Resources/" />
+		</Unit>
+		<Unit filename="Sources/includes.hpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="Sources/main.cpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="Sources/mainMenu.cpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/menus.hpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/newHighscoreScreen.cpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/optionsMenu.cpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/pauseMenu.cpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/planets.cpp">
+			<Option virtualFolder="Game/Entities/" />
+		</Unit>
+		<Unit filename="Sources/planets.hpp">
+			<Option virtualFolder="Game/Entities/" />
+		</Unit>
+		<Unit filename="Sources/progressModule.cpp">
+			<Option virtualFolder="Modules/" />
+		</Unit>
+		<Unit filename="Sources/progressModule.hpp">
+			<Option virtualFolder="Modules/" />
+		</Unit>
+		<Unit filename="Sources/resources.cpp">
+			<Option virtualFolder="Settings, Data and Resources/" />
+		</Unit>
+		<Unit filename="Sources/resources.hpp">
+			<Option virtualFolder="Settings, Data and Resources/" />
+		</Unit>
+		<Unit filename="Sources/save.cpp">
+			<Option virtualFolder="Settings, Data and Resources/" />
+		</Unit>
+		<Unit filename="Sources/save.hpp">
+			<Option virtualFolder="Settings, Data and Resources/" />
+		</Unit>
+		<Unit filename="Sources/settings.cpp">
+			<Option virtualFolder="Settings, Data and Resources/" />
+		</Unit>
+		<Unit filename="Sources/settings.hpp">
+			<Option virtualFolder="Settings, Data and Resources/" />
+		</Unit>
+		<Unit filename="Sources/ship.cpp">
+			<Option virtualFolder="Game/Entities/" />
+		</Unit>
+		<Unit filename="Sources/ship.hpp">
+			<Option virtualFolder="Game/Entities/" />
+		</Unit>
+		<Unit filename="Sources/splashScreen.cpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Unit filename="Sources/textureManager.cpp">
+			<Option virtualFolder="Settings, Data and Resources/" />
+		</Unit>
+		<Unit filename="Sources/textureManager.hpp">
+			<Option virtualFolder="Settings, Data and Resources/" />
+		</Unit>
+		<Unit filename="Sources/unispaceFont.hpp">
+			<Option virtualFolder="Settings, Data and Resources/" />
+		</Unit>
+		<Unit filename="Sources/utilFunctions.cpp">
+			<Option virtualFolder="Utilities/" />
+		</Unit>
+		<Unit filename="Sources/utilFunctions.hpp">
+			<Option virtualFolder="Utilities/" />
+		</Unit>
+		<Unit filename="Sources/version.hpp">
+			<Option virtualFolder="Main/" />
+		</Unit>
+		<Unit filename="Sources/waitScreen.cpp">
+			<Option virtualFolder="Menus/" />
+		</Unit>
+		<Extensions>
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="0" use_define="0" update_manifest="0" do_auto_increment="1" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="Sources/version.hpp" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+				<Code header_guard="VERSION_HPP" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+			<code_completion />
+			<envvars set="default" />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="5" line="2" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
